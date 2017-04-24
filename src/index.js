@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, IndexRoute, browserHistory, Link } from 'react-router'
+import { Router, Route, browserHistory, IndexRoute, Link } from 'react-router'
 import Nav from './components/Nav'
 import { EventEmitter } from 'events'
 import Screen1 from './screens/Screen1'
