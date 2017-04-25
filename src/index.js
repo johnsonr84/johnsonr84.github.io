@@ -6,6 +6,8 @@ import { EventEmitter } from 'events'
 import Screen1 from './screens/Screen1'
 import Screen2 from './screens/Screen2'
 import Screen3 from './screens/Screen3'
+import Screen4 from './screens/Screen4'
+import Screen5 from './screens/Screen5'
 import './styles/app.css';
 
 class App extends Component {
@@ -57,6 +59,8 @@ ReactDOM.render(
       <Route path="/screen1" component={Screen1} />
       <Route path="/screen2" component={Screen2} />
       <Route path="/screen3" component={Screen3} />
+      <Route path="/screen4" component={Screen4} />
+      <Route path="/screen5" component={Screen5} />
     </Route>
   </Router>,
   document.getElementById('root')

@@ -9,7 +9,8 @@ class Screen3 extends Component {
   render() {
     return (
       <div className="screen screen3">
-        <h1>SCREEN 3 DATA</h1>
+        <h1>PORTFOLIO</h1>
+        <p>Checkout some of the most recent projects that I have created.</p>
       </div>
     )
   }

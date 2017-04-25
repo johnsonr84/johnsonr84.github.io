@@ -4,7 +4,7 @@ body {
 
 .app-header {
   height: 60px;
-  background-color: black;
+  background-color: #27292F;
   width: 100%; }
 
 .app-wrapper {
@@ -16,26 +16,27 @@ body {
   height: 100%; }
   .app-wrapper .app-nav {
     width: 100px;
-    background-color: blue;
+    background-color: #FFF;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    border: 1px solid #27292F;
     align-items: stretch; }
     .app-wrapper .app-nav .nav-item {
       height: 60px;
-      background-color: coral;
+      background-color: #FFF;
       cursor: pointer;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center; }
       .app-wrapper .app-nav .nav-item.active-nav {
-        background-color: red; }
+        background-color: #27292F; }
       .app-wrapper .app-nav .nav-item:hover {
-        background-color: yellow; }
+        background-color: #6AB0FF; }
   .app-wrapper .main-content {
     flex: 1;
-    background-color: gray; }
+    background-color: white; }
     .app-wrapper .main-content .screen {
       margin: 10px; }
 
