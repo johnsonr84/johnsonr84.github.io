@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory, IndexRoute, Link } from 'react-router'
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 import { EventEmitter } from 'events'
 import Screen1 from './screens/Screen1'
 import Screen2 from './screens/Screen2'
@@ -34,7 +35,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <div className="app-header"></div>
+        <div className="app-header">THIS IS A HEADER</div>
         <div className="app-wrapper">
           <Nav
             eventEmitter={this.eventEmitter}
@@ -45,7 +46,9 @@ class App extends Component {
             })}
           </div>
         </div>
-
+        <Footer
+          eventEmmiter={this.eventEmmiter}
+          screenIndex={this.state.screenIndex} />
       </div>
     )
   }

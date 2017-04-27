@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 class Screen1 extends Component {
 
   componentWillMount() {
@@ -9,7 +10,7 @@ class Screen1 extends Component {
   render() {
     return (
       <div className="screen screen1">
-        <h1>HOME</h1>
+        <img className="home-image" src={'./images/photo-white.png'} />
       </div>
     )
   }
