@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, browserHistory, IndexRoute, Link } from 'react-router'
+import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import { EventEmitter } from 'events'

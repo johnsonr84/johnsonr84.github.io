@@ -11,7 +11,10 @@ class Nav extends Component {
   }
 
 
+
   render() {
+
+
     return (
       <div className="app-nav">
         <div
@@ -29,16 +32,15 @@ class Nav extends Component {
         <div
           className={this.props.screenIndex === 4 ? "nav-item screen4 active-nav accordion" : "nav-item screen4"}>
           <Link to="/screen4">BLOG</Link>
-          <div className="panel">
-            <p>January</p>
-            <p>February</p>
-            <p>March</p>
-
-          </div>
         </div>
         <div
           className={this.props.screenIndex === 5 ? "nav-item screen4 active-nav" : "nav-item screen5"}>
           <Link to="/screen5">CONTACT</Link>
+        </div>
+        <div className="social-media">
+          <Link className="linkedIn" href="https://www.linkedin.com/in/robertjohnson1984/">LinkedIn</Link>
+          <Link className="github" href="https://github.com/johnsonr84">Github</Link>
+          <Link className="twitter" href="https://twitter.com/RobThatBeat">Twitter</Link>
         </div>
       </div>
     )

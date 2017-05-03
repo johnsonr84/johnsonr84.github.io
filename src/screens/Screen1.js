@@ -10,7 +10,7 @@ class Screen1 extends Component {
   render() {
     return (
       <div className="screen screen1">
-        <img className="home-image" src={'./images/photo-white.png'} />
+        <img className="home-image" src={'./images/photo-white.png'} alt="rob" />
       </div>
     )
   }
