@@ -1,0 +1,15 @@
+[
+  {
+    "projectName": "Cosmic Calculator",
+    "image": "./images/calculator.png",
+    "description": "codedork's cosmic calculator",
+    "tags": ["HTML", "CSS", "Design"]
+  },
+
+  {
+    "projectName": "007 API",
+    "image": "./images/bond.png",
+    "description": "codedork's cosmic calculator",
+    "tags": ["HTML", "CSS", "Design", "API"]
+  }
+]
