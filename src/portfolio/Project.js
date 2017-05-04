@@ -9,11 +9,10 @@ export default class Project extends Component {
       <div className="project">
         <h2>{projectData.projectName}</h2>
         <img className="portfolioImage" src={projectData.image} alt={projectData.projectName} />
-        <ul>
+        <p>{projectData.description}</p>
         {projectData.tags.map((tag,index)=> {
-          return <li>{tag}</li>
+          return <p>{tag}</p>
         })}
-        </ul>
       </div>
     )
   }
