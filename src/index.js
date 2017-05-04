@@ -35,7 +35,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <div className="app-header">THIS IS A HEADER</div>
+        <div className="app-header">Rojo's Site</div>
         <div className="app-wrapper">
           <Nav
             eventEmitter={this.eventEmitter}
