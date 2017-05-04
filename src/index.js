@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, browserHistory, IndexRoute } from 'react-router'
+import { Router, Route, hashHistory, IndexRoute } from 'react-router'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import { EventEmitter } from 'events'
@@ -56,7 +56,7 @@ class App extends Component {
 }
 
 ReactDOM.render(
-  <Router history={browserHistory}>
+  <Router history={hashHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Screen2} />
       <Route path="/screen1" component={Screen1} />

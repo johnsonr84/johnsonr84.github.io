@@ -17,8 +17,8 @@
     "gh-pages": "^0.12.0",
     "react-scripts": "0.9.5"
   },
-    "homepage": ".",
-    "scripts": {
+  "homepage": ".",
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
