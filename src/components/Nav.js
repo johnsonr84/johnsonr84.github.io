@@ -38,6 +38,7 @@ class Nav extends Component {
           <Link to="/screen5">CONTACT</Link>
         </div>
         <div className="social-media">
+          <Link className="resume" href="https://www.visualcv.com/robert-johnson">RESUME</Link>
           <Link className="linkedIn" href="https://www.linkedin.com/in/robertjohnson1984/">LinkedIn</Link>
           <Link className="github" href="https://github.com/johnsonr84">Github</Link>
           <Link className="twitter" href="https://twitter.com/RobThatBeat">Twitter</Link>
