@@ -11,7 +11,7 @@ class Screen1 extends Component {
     return (
       <div className="screen screen1">
       <h1>Hello</h1>
-        <img className="home-image" src={'./images/photo-white.png'} alt="rob" />
+        <img className="home-image" src={'./images/rob.jpg'} alt="rob" />
       </div>
     )
   }
